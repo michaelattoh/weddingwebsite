@@ -454,3 +454,17 @@
     font-family: Arial, sans-serif; /* Normal font */
     font-size: 16px;
 }
+
+/* disable screenshot */
+img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+@media (display-mode: fullscreen) {
+    body {
+        filter: brightness(0);
+    }
+}
+
