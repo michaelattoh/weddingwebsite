@@ -43,7 +43,32 @@
     });
     
     // wedding timer
-    
+    document.addEventListener("DOMContentLoaded", function () {
+        var duration = 3 * 1000; // 3 seconds
+        var end = Date.now() + duration;
+
+        (function frame() {
+            confetti({
+                particleCount: 3,
+                angle: 60,
+                spread: 55,
+                origin: { x: 0 }
+            });
+
+            confetti({
+                particleCount: 3,
+                angle: 120,
+                spread: 55,
+                origin: { x: 1 }
+            });
+
+            if (Date.now() < end) {
+                requestAnimationFrame(frame);
+            }
+        })();
+    });
+
+
     
    // Back to top button
    $(window).scroll(function () {
