@@ -42,6 +42,8 @@
         }
     });
     
+    // wedding timer
+    
     
    // Back to top button
    $(window).scroll(function () {

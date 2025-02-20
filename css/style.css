@@ -241,7 +241,7 @@
     width: 100%;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/wedding-date-bg.jpg) center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/wedding-timeline-bg.jpeg) center;
     object-fit: cover;
     background-repeat: no-repeat;
 }
@@ -440,3 +440,17 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+.accordion-button {
+    font-family: Arial, sans-serif; /* Normal font */
+    font-size: 16px; /* Adjust size as needed */
+    color: #333; /* Darker text */
+    font-weight: normal; /* Remove bold if present */
+}
+
+.accordion-body {
+    background-color: white; /* Keep background white */
+    color: black; /* Ensure text is black */
+    font-family: Arial, sans-serif; /* Normal font */
+    font-size: 16px;
+}
