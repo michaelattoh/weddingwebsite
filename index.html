@@ -62,6 +62,7 @@
                             <div class="navbar-nav mx-auto border-top">
                                 <a href="#weddingHome" class="nav-item nav-link active">Home</a>
                                 <a href="#weddingAbout" class="nav-item nav-link">Our Colour Scheme</a>
+                                <a href="#accommodationTravel" class="nav-item nav-link">Accommodation</a>
                                 <a href="#weddingStory" class="nav-item nav-link">Story</a>
                                 <a href="#weddingTimeline" class="nav-item nav-link">Timeline</a>
                                 <a href="#wishList" class="nav-item nav-link">Our Wishlist</a>
@@ -236,7 +237,7 @@
 
 
         <!-- Accommodation Start -->
-        <div class="container-fluid position-relative overflow-hidden py-5">
+        <div class="container-fluid position-relative overflow-hidden py-5" id="accommodationTravel">
             <img src="img/bg-flower.png" class="img-fluid position-absolute top-0" style="right: -15px; transform: rotate(270deg); opacity: 0.5;" alt="">
             <img src="img/bg-flower.png" class="img-fluid position-absolute" style="bottom: 10px; left: -15px; transform: rotate(90deg); opacity: 0.5;" alt="">
             
@@ -287,146 +288,99 @@
 
 
         <!-- Story Start -->
-        <div class="container-fluid story position-relative py-5" id="weddingStory">
-            <!-- <div class="position-absolute" style="top: -35px; right: 0;">
-                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
-            </div> -->
-            <!-- <div class="position-absolute" style="top: -15px; left: 0; transform: rotate(150deg);">
-                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
-            </div> -->
+        <div class="container-fluid story position-relative py-5" id="weddingStory" style="background: url('img/love-background.jpg') center/cover no-repeat; position: relative;">
+            <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.7);"></div>
+            
             <div class="container position-relative py-5">
                 <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <!-- <h5 class="text-uppercase text-primary fw-bold mb-4">Story</h5> -->
-                    <h1 class="display-4">Our Love Story</h1>
+                    <h1 class="display-4" style="font-family: 'Dancing Script', cursive; font-size: 3rem; color: #a52a2a;">Our Love Story</h1>
                 </div>
-                <div class="story-timeline">
-                    <div class="row wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="col-md-6 text-end border-0 border-top border-end border-secondary p-4">
-                            <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-1.jpg" class="img-fluid w-100 img-border" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <!-- <h4 class="mb-2 text-dark">First Meet</h4> -->
-                                <!-- <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">01 Jan 2050</p> -->
-                                <p class="m-0 fs-5">It all started with a simple message that sparked something truly special. 
-                                    From that moment, long and frequent conversations filled our days and nights over the next few weeks. 
-                                    We quickly discovered just how much we had in common—our similar upbringing, shared faith, and deeply rooted family values created an instant connection. </p>
-                            </div>
-                        </div>
+                
+                <div class="position-relative d-flex align-items-center">
+                    <!-- Floating Image -->
+                    <img src="img/lovestory.jpeg" alt="Our Love Story" class="img-fluid floating-img" 
+                         style="width: 300px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); position: absolute; right: -50px; top: 50%; transform: translateY(-50%);">
+                    
+                    <div class="story-content bg-secondary text-dark p-5" 
+                         style="font-family: 'Playfair Display', serif; font-size: 1.1rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-right: 320px;">
+                        <p class="fs-5">
+                            It all started with a simple message that sparked something truly special. From that moment, long and frequent conversations filled our days and nights over the next few weeks. 
+                            We quickly discovered just how much we had in common—our similar upbringing, shared faith, and deeply rooted family values created an instant connection.
+                        </p>
+        
+                        <p class="fs-5">
+                            At the time, we were both working in London, which gave us the opportunity to meet regularly after work at London Waterloo Station. 
+                            Over the course of three months, we built a strong and genuine friendship. 
+                            It was during this time that <strong>Jon</strong> expressed his desire to pursue something more, and we began a beautiful journey together.
+                        </p>
+        
+                        <p class="fs-5">
+                            Even when distance came into play, we made it a priority to create meaningful memories. 
+                            Introducing each other to our close friends and families brought us even closer as we prayed and sought Godly counsel along the way, strengthening our convictions. 
+                            Natalie met Jon’s father, who was very pleased with Jon’s choice. Soon after, Jon moved out of London to be closer to Natalie and after just four months, Jon had seamlessly become part of the family, and our courtship officially began.
+                        </p>
+        
+                        <p class="fs-5">
+                            Six months after that, Jon proposed to Natalie in a private and intimate moment, making a promise to build a life together. 
+                            The rest, as they say, is history—and now, we can’t wait to celebrate the next chapter of our story with all of you.
+                        </p>
                     </div>
-                    <div class="row flex-column-reverse flex-md-row wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <!-- <h4 class="text-dark mb-2">First Date</h4>
-                                <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">01 Jan 2050</p> -->
-                                <p class="m-0 fs-5">At the time, we were both working in London, which gave us the opportunity to meet regularly after work at London Waterloo Station. 
-                                    Over the course of three months, we built a strong and genuine friendship. 
-                                    It was during this time that <strong>Jon</strong> expressed his desire to pursue something more, and we began a beautiful journey together. </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 border-start border-top border-secondary p-4">
-                            <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-2.jpg" class="img-fluid w-100 img-border" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
-                            <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-3.jpg" class="img-fluid w-100 img-border" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <!-- <h4 class="text-dark mb-2">Proposal</h4>
-                                <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">01 Jan 2050</p> -->
-                                <p class="m-0 fs-5">Even when distance came into play, we made it a priority to create meaningful memories. 
-                                    Introducing each other to our close friends and families brought us even closer as we prayed and sought Godly counsel along the way, strengthening our convictions. 
-                                    Natalie met Jon’s father who was very pleased with Jon’s choice. Soon after, Jon moved out of London to be closer to Natalie and after just four months, Jon had seamlessly become part of the family, and our courtship officially began. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row flex-column-reverse flex-md-row wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="col-md-6 text-end border border-start-0 border-secondary p-4 ps-0">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <!-- <h4 class="text-dark mb-2">Enagagement</h4> -->
-                                <!-- <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">01 Jan 2050</p> -->
-                                <p class="m-0 fs-5">Six months after that, Jon proposed to Natalie in a private and intimate moment, making a promise to build a life together. 
-                                    The rest, as they say, is history—and now, we can’t wait to celebrate the next chapter of our story with all of you. 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 border border-end-0 border-secondary p-4">
-                            <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-4.jpg" class="img-fluid w-100 img-border" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="row wow fadeInUp" data-wow-delay="0.4s"> -->
-                        <!-- <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
-                            <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-3.jpg" class="img-fluid w-100 img-border" alt="">
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                               
-                                <p class="m-0 fs-5">Even when distance temporarily separated us, our commitment never wavered. We made it a priority to create meaningful memories despite the miles. 
-                                    Meeting each other’s closest friends and families became a cherished part of our story, each introduction drawing us closer together. 
-                                    Natalie’s heart was warmed by Jon’s father, whose warm approval cemented what we already knew—we were meant to be.</p>
-                            </div>
-                        </div> -->
-                    <!-- </div> -->
-                    <!-- <div class="row flex-column-reverse flex-md-row wow fadeInUp" data-wow-delay="0.3s"> -->
-                        <!-- <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                
-                                <p class="m-0 fs-5">Jon’s move out of London to be nearer to Natalie marked a turning point in our relationship. 
-                                    In just four months, Jon had seamlessly woven himself into Natalie’s family life, becoming a beloved part of their world. 
-                                    Our prayers and shared pursuit of Godly counsel deepened our love and strengthened our convictions as we officially began our courtship</p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-md-6 border-start border-top border-secondary p-4">
-                            <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-2.jpg" class="img-fluid w-100 img-border" alt="">
-                            </div>
-                        </div> -->
-                    <!-- </div> -->
-                    <!-- <div class="row wow fadeInUp" data-wow-delay="0.4s"> -->
-                        <!-- <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
-                            <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-3.jpg" class="img-fluid w-100 img-border" alt="">
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                
-                                <p class="m-0 fs-5">Six months later, Jon knelt before Natalie in a private, intimate setting, eyes filled with certainty and love, promising a future built on trust, faith, and unending devotion. 
-                                    With tears of joy, Natalie said “Yes,” knowing without a doubt that this was the beginning of forever.</p>
-                            </div>
-                        </div> -->
-                    <!-- </div> -->
-                    <!-- <div class="row flex-column-reverse flex-md-row wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                               
-                                <p class="m-0 fs-5">The rest, as they say, is history—a history filled with love, laughter, and unwavering faith. 
-                                    Now, as we prepare to celebrate this next chapter, we look back with gratitude and forward with excitement, knowing that the best is yet to come.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 border-start border-top border-secondary p-4">
-                            <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-2.jpg" class="img-fluid w-100 img-border" alt="">
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
         <!-- Story End -->
+        
+        <!-- another design -->
 
+        <div class="container-fluid story position-relative py-5"  style="background: url('img/love-background.jpg') center/cover no-repeat; position: relative;">
+            <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.7);"></div>
+            
+            <div class="container position-relative py-5">
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-4" style="font-family: 'Dancing Script', cursive; font-size: 3rem; color: #a52a2a;">Our Love Story</h1>
+                </div>
+        
+                <div class="story-content bg-secondary text-dark p-5 d-flex align-items-center justify-content-between" 
+                     style="font-family: 'Playfair Display', serif; font-size: 1.1rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    
+                    <!-- Text Content -->
+                    <div class="story-text" style="flex: 1; margin-right: 30px; text-align: justify;">
+                     
+                        <p class="fs-5">
+                            It all started with a simple message that sparked something truly special. From that moment, long and frequent conversations filled our days and nights over the next few weeks. 
+                            We quickly discovered just how much we had in common—our similar upbringing, shared faith, and deeply rooted family values created an instant connection.
+                        </p>
+        
+                        <p class="fs-5">
+                            At the time, we were both working in London, which gave us the opportunity to meet regularly after work at London Waterloo Station. 
+                            Over the course of three months, we built a strong and genuine friendship. 
+                            It was during this time that <strong>Jon</strong> expressed his desire to pursue something more, and we began a beautiful journey together.
+                        </p>
+        
+                        <p class="fs-5">
+                            Even when distance came into play, we made it a priority to create meaningful memories. 
+                            Introducing each other to our close friends and families brought us even closer as we prayed and sought Godly counsel along the way, strengthening our convictions. 
+                            Natalie met Jon’s father, who was very pleased with Jon’s choice. Soon after, Jon moved out of London to be closer to Natalie and after just four months, Jon had seamlessly become part of the family, and our courtship officially began.
+                        </p>
+        
+                        <p class="fs-5">
+                            Six months after that, Jon proposed to Natalie in a private and intimate moment, making a promise to build a life together. 
+                            The rest, as they say, is history—and now, we can’t wait to celebrate the next chapter of our story with all of you.
+                        </p>
+                    </div>
+        
+                    <!-- Rounded Image -->
+                    <div class="story-image">
+                        <img src="img/carousel3.jpeg" alt="Our Love Story" 
+                             style="width: 400px; height: 400px; border-radius: 50%; object-fit: cover; display: block; object-position: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <!-- end of another -->
 
         <!--- Wedding Date -->
         <div class="container-fluid wedding-date-bg position-relative py-5">
@@ -545,46 +499,19 @@
 
 
         <!-- picture upload start -->
-        <div class="container-fluid gallery position-relative py-5" id="pictureUpload">
-            <div class="container text-center">
-                <h3 class="display-2 text-primary">Upload Your Wedding Pictures</h3> <br>
-                <input type="file" id="fileInput" accept="image/*" multiple>
-                <button onclick="uploadFile()">Upload</button>
+        <div class="container-fluid gallery position-relative py-5 text-center" id="pictureUpload">
+            <div class="container">
+                <h3 class="display-2 text-primary">Upload Your Wedding Pictures</h3> 
+                <br>
+                
+                <!-- QR Code -->
+                <p class="lead text-dark">Scan the QR code below to upload your pictures:</p>
+                <img src="/img/qrcode.png" alt="Scan to Upload" class="img-fluid" style="max-width: 200px;">
+        
                 <p id="uploadStatus"></p>
             </div>
-            
-            <script>
-                async function uploadFile() {
-                    let fileInput = document.getElementById("fileInput");
-                    let files = fileInput.files;
-                    if (files.length === 0) {
-                        alert("Please select at least one image.");
-                        return;
-                    }
-            
-                    let formData = new FormData();
-                    for (let i = 0; i < files.length; i++) {
-                        formData.append("images[]", files[i]);
-                    }
-            
-                    document.getElementById("uploadStatus").innerText = "Uploading...";
-            
-                    try {
-                        let response = await fetch("upload.php", {
-                            method: "POST",
-                            body: formData,
-                        });
-            
-                        let result = await response.json();
-                        document.getElementById("uploadStatus").innerText = result.message;
-                    } catch (error) {
-                        document.getElementById("uploadStatus").innerText = "Upload failed!";
-                        console.error("Error:", error);
-                    }
-                }
-            </script>
-            
         </div>
+        
         <!-- picture upload end  -->
 
         <!--- Registry start -->
